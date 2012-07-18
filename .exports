@@ -11,11 +11,3 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
-
-# MacPorts Installer addition on 2012-05-02_at_18:37:25: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-export PATH="$PATH:/usr/local/mysql/bin"
-
-# My Dropbox bin
-export PATH="$PATH:/Users/Lex/Dropbox/bin"
