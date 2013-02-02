@@ -7,6 +7,7 @@ export PATH="$PATH:/usr/local/mysql/bin"
 export PATH="$PATH:/Users/Lex/Dropbox/bin"
 export PATH="$PATH:/usr/local/openresty/nginx/sbin"
 export PATH="$PATH:/usr/local/share/python"
+export PATH="$PATH:/usr/local/Cellar/ruby/1.9.3-p374/bin"
 
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
