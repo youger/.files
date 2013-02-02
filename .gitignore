@@ -1,3 +1,6 @@
+# Node.js modules
+node_modules/*
+
 # Compiled Python files
 *.pyc
 
@@ -26,7 +29,9 @@ VersionX-revision.h
 
 # Exclude the build products
 build/*
-*.[oa]
+build.output
+pkg/*
+*.o
  
 # Exclude temp nibs and swap files
 *~.nib
@@ -45,6 +50,8 @@ dsa_priv.pem
 *.pbxuser
 *.xcuserdatad
 xcuserdata
+profile
+DerivedData
 
 # Exclude ReleaseNotes
 RELEASENOTES
@@ -59,3 +66,4 @@ CVS
 
 # idea project files
 .idea
+*.hmap

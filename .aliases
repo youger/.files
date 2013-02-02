@@ -19,6 +19,14 @@ alias m="mate ."
 alias s="subl ."
 alias o="open"
 alias oo="open ."
+alias r="rails"
+alias n="node"
+
+# Clear Xcode DerivedData
+alias ded="rm -rf /Users/lex/Library/Developer/Xcode/DerivedData"
+
+# Speed Up Terminal
+alias dsyslog="sudo rm -rf /private/var/log/asl/*.asl"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

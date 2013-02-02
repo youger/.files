@@ -1,7 +1,12 @@
 # PATH additions
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH="$PATH:/usr/local/mysql/bin"
 export PATH="$PATH:/Users/Lex/Dropbox/bin"
+export PATH="$PATH:/usr/local/openresty/nginx/sbin"
+export PATH="$PATH:/usr/local/share/python"
 
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
@@ -11,6 +16,3 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="lexrus@gmail.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
-
-# Alias additions
-alias ded="rm -rf /Users/lex/Library/Developer/Xcode/DerivedData"
