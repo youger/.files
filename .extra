@@ -4,10 +4,11 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH="$PATH:/usr/local/mysql/bin"
-export PATH="$PATH:/Users/Lex/Dropbox/bin"
+export PATH="$PATH:~/Dropbox/bin"
 export PATH="$PATH:/usr/local/openresty/nginx/sbin"
 export PATH="$PATH:/usr/local/share/python"
-export PATH="$PATH:/usr/local/Cellar/ruby/1.9.3-p385/bin"
+export PATH="$PATH:~/.rbenv/shims"
+eval "$(rbenv init -)"
 
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
