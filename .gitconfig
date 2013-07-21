@@ -1,17 +1,6 @@
-[user]
-	name = Lex Tang
-	email = lexrus@gmail.com
-
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-
 [alias]
-	# View the SHA, description, and history graph of the latest 20 commits
-	l = log --pretty=oneline -n 20 --graph
+	# View abbreviated SHA, description, and history graph of the latest 20 commits
+	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 	# View the current working tree status using the short format
 	s = status -s
 	# Show the diff between the latest commit and the current state
@@ -34,8 +23,6 @@
 	credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
 	# Interactive rebase with the given number of latest commits
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
-	# Undo a `git push`
-	undopush = push -f origin HEAD^:master
 
 [apply]
 	# Detect whitespace errors when applying a patch
@@ -87,3 +74,5 @@
 [url "git://gist.github.com/"]
 	insteadOf = "gist:"
 
+[push]
+	default = matching
