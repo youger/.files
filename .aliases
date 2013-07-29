@@ -22,6 +22,7 @@ alias oo="open ."
 alias r="rails"
 alias n="node"
 alias ox="open ./*.xcworkspace 2>/dev/null || open ./*.xcodeproj 2>/dev/null"
+alias cask="brew cask"
 
 # Clear Xcode DerivedData
 alias ded="rm -rf /Users/lex/Library/Developer/Xcode/DerivedData"
