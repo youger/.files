@@ -7,10 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="sorin"
 
-# Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -42,16 +38,9 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git brew rails ruby npm pip redis-cli supervisor urltools debian nginx pod cp gem github node osx python rake sublime textmate tmux)
 
-source $ZSH/oh-my-zsh.sh
+source $HOME/.aliases
+source $HOME/.exports
+source $HOME/.functions
+source $HOME/.extra
 
-# Customize to your needs...
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/share/npm/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH="$PATH:/usr/local/mysql/bin"
-export PATH="$PATH:~/Dropbox/bin"
-export PATH="$PATH:/usr/local/openresty/nginx/sbin"
-export PATH="$PATH:/usr/local/share/python"
-export PATH="$PATH:~/.rbenv/shims"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+source $ZSH/oh-my-zsh.sh
