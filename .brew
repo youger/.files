@@ -50,6 +50,7 @@ brew install python
 brew install hub
 brew install tig
 brew install zopfli
+brew install ctags-exuberant
 
 brew tap homebrew/versions
 brew install lua52
