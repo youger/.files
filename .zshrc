@@ -45,4 +45,13 @@ plugins=(git brew rails ruby npm pip redis-cli supervisor urltools debian nginx 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/lex/.rbenv/shims:/opt/local/bin:/opt/local/sbin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/bin:/Users/lex/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin:~/Dropbox/bin:/usr/local/openresty/nginx/sbin:/usr/local/share/python:~/.rbenv/shims
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH="$PATH:/usr/local/mysql/bin"
+export PATH="$PATH:~/Dropbox/bin"
+export PATH="$PATH:/usr/local/openresty/nginx/sbin"
+export PATH="$PATH:/usr/local/share/python"
+export PATH="$PATH:~/.rbenv/shims"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
