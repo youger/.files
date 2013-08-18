@@ -28,7 +28,7 @@ alias cask="brew cask"
 alias ilovecow="curl -s -L http://git.io/cow | bash"
 
 # Clear Xcode DerivedData
-alias ded="rm -rf /Users/lex/Library/Developer/Xcode/DerivedData"
+alias ded="rm -rf $HOME/Library/Developer/Xcode/DerivedData"
 
 # Speed Up Terminal
 alias dsyslog="sudo rm -rf /private/var/log/asl/*.asl"
