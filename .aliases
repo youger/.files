@@ -26,6 +26,7 @@ alias n="node"
 alias ox="open ./*.xcworkspace 2>/dev/null || open ./*.xcodeproj 2>/dev/null"
 alias cask="brew cask"
 alias ilovecow="curl -s -L http://git.io/cow | bash"
+alias www="twistd -onl - --pidfile=/tmp/twistd.pid web --path=./ --port=8000;"
 
 # Clear Xcode DerivedData
 alias ded="rm -rf $HOME/Library/Developer/Xcode/DerivedData"
