@@ -67,3 +67,6 @@ CVS
 # idea project files
 .idea
 *.hmap
+
+# twistd pid files
+twistd.pid
