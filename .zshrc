@@ -36,7 +36,7 @@ ZSH_THEME="sorin"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras brew ruby gem bundler rails4 rbenv rake autojump knife themes pip encode64 redis-cli supervisor urltools nginx pod cp github osx python web-search)
+plugins=(git git-extras github brew ruby gem bundler rails4 rake autojump knife themes pip encode64 redis-cli supervisor urltools nginx pod cp osx python web-search)
 
 source $HOME/.aliases
 source $HOME/.exports
