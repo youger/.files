@@ -83,3 +83,5 @@ twistd.pid
 /log/*.log
 /tmp
 
+# Ignore vendor cache
+/vendor/cache
