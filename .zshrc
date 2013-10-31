@@ -1,6 +1,13 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+# Set maximum reverse history file size
+HISTSIZE=3000
+# Limit items
+SAVEHIST=500
+# Optionally, move to another file
+# HISTFILE=~/.my_zsh_history
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -36,7 +43,7 @@ ZSH_THEME="sorin"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras github brew ruby gem bundler rails4 rake autojump knife themes pip encode64 redis-cli supervisor urltools nginx pod cp osx python web-search)
+plugins=(git git-extras github brew ruby bundler gem rails4 rake autojump knife themes pip encode64 redis-cli supervisor urltools nginx pod cp osx python web-search)
 
 source $HOME/.aliases
 source $HOME/.exports
