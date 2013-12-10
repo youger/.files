@@ -43,7 +43,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras github brew ruby bundler gem rails4 rake autojump knife themes pip encode64 redis-cli supervisor urltools nginx pod cp osx python web-search)
+plugins=(git github brew ruby bundler gem rails rake autojump knife encode64 redis-cli supervisor urltools nginx pod cp osx web-search)
 
 source $HOME/.aliases
 source $HOME/.exports
