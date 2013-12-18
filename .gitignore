@@ -49,6 +49,7 @@ dsa_priv.pem
 *.perspectivev3
 *.pbxuser
 *.xcuserdatad
+*.xccheckout
 xcuserdata
 profile
 DerivedData
