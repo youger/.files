@@ -18,7 +18,9 @@ Thumbs.db
 
 # Exclude the Podspecs
 Pods/*
-Podfile.lock
+# Podfile.lock should not be ignored.
+# See also https://github.com/thoughtbot/liftoff/issues/30
+# Podfile.lock 
 
 # Exclude any PSD/AI source
 #*.psd
